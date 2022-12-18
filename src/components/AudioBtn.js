@@ -64,9 +64,6 @@ const AudioBtn = ({ soundLink, id, label, isActive, setButtonInfo, setDisplayTex
 
   };
 
-const volumed = volume / 100
-console.log('VOLUME', volume)
-
   return (
     <div
       tabIndex={0}
