@@ -2,14 +2,15 @@ const Footer = () => {
 
   const style = {
     width: '100%',
-    display: 'Flex',
+    display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    textAlign: 'center'
   }
 
   return (
     <div style={style}>
-      <p>Created By: Giuseppe Fazzolari 2022</p>
+      <p>Created By: <br/>Giuseppe Fazzolari 2022</p>
     </div>
   )
 };
